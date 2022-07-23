@@ -11,7 +11,7 @@ public class FileProject {
 
 	public static void main(String[] args) throws IOException {
 		
-		File countries=new File("D:\\countries");
+		File countries=new File("D:\\countries.txt");
 		if(!countries.exists()) {
 			System.out.println("file creating...");
 			countries.createNewFile();
